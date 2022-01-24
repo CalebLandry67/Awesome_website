@@ -1,0 +1,19 @@
+.top-background {
+    background-color: #1f2937;
+}
+.header-1-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+}
+.small-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
