@@ -8,10 +8,11 @@
 a {
     color: #e5e7eb;
     font-size: 18px;
-    font-style: none;
+    font-style: italic;
+    text-decoration: none;
 }
 .main-text {
-    font-size: 48px;
+    font-size: 20px;
     color: #f9faf8;
 }
 .small-subtext {
@@ -28,6 +29,10 @@ a {
     padding-bottom: 5px;
     padding-left: 20px;
     padding-right: 20px;
+}
+.top-img {
+    width: 330px;
+    height: 225px;
 }
 .img {
     border: 7px solid #3882F6;
@@ -55,4 +60,46 @@ a {
     padding-bottom: 3px;
     padding-left: 16px;
     padding-right: 16px;
+}
+
+
+.flex-container1 {
+    display: flex;
+}
+.flex-container1 div {
+    flex: 1 1 0%
+}
+.flex-container1 .one {
+    text-align: center;
+    flex: 2 1 0%;
+}
+.flex-container1 .two {
+    text-align: end;
+    flex: 1 1 0%;
+    padding-top: 30px;
+}
+.flex-container1 .three {
+    text-align: center;
+    flex: 1 1 0%;
+    padding-top: 30px;
+}
+.flex-container1 .four {
+    text-align: start;
+    flex: 1 1 0%;
+    padding-top: 30px;
+}
+
+.flex-container2 {
+    display: flex;
+}
+.flex-container2 div {
+    flex: 1;
+}
+.flex-container2 .one {
+    flex: 1 1 0%;
+    text-align: center;
+}
+.flex-container2 .two {
+    flex: 1 1 0%;
+    text-align: start;
 }
