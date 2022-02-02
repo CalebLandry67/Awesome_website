@@ -136,11 +136,6 @@ a {
 .eight {
     flex:inherit;
 }
-.eight .smaller {
-    border-style: solid;
-    border-width: 5px;
-    border-color: red;
-}
 .nine {
     flex:inherit;
 }
@@ -149,4 +144,62 @@ a {
 }
 .eleven {
     flex: inherit;
+}
+/*flex container five*/
+.flex-container5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+.twelve {
+    flex: inherit;
+}
+/* this is where I started using "t(n)" intstead of numbers for easier use */
+.f13 {
+    flex: inherit;
+}
+.f14 {
+    flex: inherit;
+}
+.f15 {
+    flex: inherit;
+}
+/* flex container 6 */
+.flex-container6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.big-boy {
+    flex: 1;
+}
+.f16 {
+    flex: 1;
+    max-width: 650px;
+}
+.f17 {
+    flex: 1;
+    text-align: right;
+}
+/* flex container seven */
+.flex-container7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-item-container1 {
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+}
+.f18 {
+    flex: 2;
+}
+.f19 {
+    flex: 1;
+    text-align: center;
 }
