@@ -3,6 +3,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
+    margin: 0%;
 }
 /*fonts*/
 .header-1-logo {
@@ -82,8 +83,21 @@ a {
 }
 .alert-background {
     background-color: #3882f6;
+    border-radius: 5px;
 }
-
+/*padd/spacing control*/
+.c1sp {
+    padding-bottom: 18px;
+}
+.c2sp {
+    padding-bottom: 40px;
+}
+.c3sp {
+    padding-bottom: 50px;
+}
+.c4sp {
+    padding-bottom: 30px;
+}
 /*flex*/
 /*first flex container*/
 .flex-container1 {
@@ -93,9 +107,9 @@ a {
     flex: 1 1 0%
 }
 .flex-container1 .one {
-    text-align: center;
     flex: 2 1 0%;
     padding-bottom: 30px;
+    padding-left: 215px;
 }
 .flex-container1 .two {
     text-align: end;
@@ -124,7 +138,7 @@ a {
 }
 .flex-container2 .five {
     flex: 1 1 0%;
-    text-align: center;
+    padding-left: 215px;
 }
 .flex-container2 .six {
     flex: 1 1 0%;

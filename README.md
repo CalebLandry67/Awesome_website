@@ -1,1 +1,1 @@
-# awesome_website
+This is a project for The Odin Project meant to help us understand how to use flex in css. we had to basically copy an image and code it ourselves.
