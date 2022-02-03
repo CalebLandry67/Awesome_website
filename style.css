@@ -54,7 +54,7 @@ a {
     padding-right: 20px;
 }
 .top-img {
-    width: 450px;
+    width: 500px;
     height: 225px;
 }
 .img {
@@ -144,6 +144,7 @@ a {
     flex: 1 1 0%;
     text-align: start;
     padding-bottom: 40px;
+    padding-left: 40px;
 }
 /* flex container 3*/
 .flex-container3 {
